@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>边框</title>
+    <style>
+        div {
+            width: 150px;
+            height: 150px;
+            margin: 10px;
+        }
+
+        .box1:nth-child(1) {
+            border: 3px solid blue;
+            border-style: dashed;
+        }
+
+        .box1:nth-child(2) {
+            border: 3px solid pink;
+        }
+
+        .box1:nth-child(3) {
+            border: 3px solid green;
+            border-style: dotted;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1">第一个div</div>
+    <div class="box1">第二个div</div>
+    <div class="box1">第三个div</div>
+</body>
+
+</html>
